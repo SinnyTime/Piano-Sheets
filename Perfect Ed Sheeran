@@ -1,0 +1,25 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[
+u y t [8wu]||u||u||
+u y t [etu]||u||u||
+u y t [eti]||u||t||
+t y u [wry]|||
+u y t [8wu]||u||u||
+u y t [etu]||u||u||
+u y t [eti]||u||t||
+t y u [wry]| |u||y||[0et]| |
+[qes]| a p| a [8wu]| |
+[7wo]| i u| i [etu]| |
+[qes]| a p| a [8wu]| |
+[7wo] o o o| p [etu] y t| |
+[qes]| a p| a [8wu]| |
+[7wo]| i u| i [etu]||y||[qei]||u||
+[8wu]||y||[7wy]||t| r [80wt]
+]]
